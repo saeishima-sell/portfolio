@@ -6,8 +6,9 @@ font-family: 'Roboto', sans-serif; */
 
 
 * {
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -15,10 +16,17 @@ body {
     background-color: #f1f1e9;
     color: #403227;
     font-family: 'Outfit', sans-serif;
+    
 }
 
 main {
     margin: auto 188px;
+}
+
+.section-title {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
 }
 
 /* header */
@@ -53,24 +61,132 @@ main {
     margin-right: 20px;
 }
 
+.nav-items a:link, a:visited {
+    text-decoration: none;
+    color: #f1f1e9;
+}
+
 
 /* hero section */
 
-.hero {
+#hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
 }
 
+.hero-text {
+    margin: 30px;
+}
 
 .site-title {
     font-size: 60px;
+    
 }
 
 .hero-images {
+    width: 400px;
+    height: 425px;
     position: relative;
+    transition: transform .7s;
 }
 
 .hero-image {
+    width: 256px;
+    height: 287px;
+    padding: 10px;
     position: absolute;
-    top: 5px;
-    left: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* look up later */
+.hero-image2 {
+    visibility: hidden;
+}
+
+.hero-image1:hover {
+    visibility: hidden;
+}
+
+
+.hero-image2:hover {
+   visibility: visible;
+}
+
+
+
+
+/* about section */
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* width: 900px; */
+    margin: 40px 100px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    margin: 5px 40px;
+    width: 233px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f1f1e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6A376;
+    border-radius: 100px;
+    letter-spacing: 0.1em;
+}
+
+/* works section */
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+}
+
+.work-contents {
+    width: 345px;
+    height: 327px;
+    border-radius: 20px;
+    /* background-color: #403227; */
+    margin: 30px 15px 0 0;
+}
+
+.content1 {
+    background-image: url(images/work1.jpg);
+    background-size: cover;
+}
+.content2 {
+    background-image: url(images/work2.jpg);
+    background-size: cover;
+}
+.content3 {
+    background-image: url(images/work3.jpg);
+    background-size: cover;
+}
+.content4 {
+    background-image: url(images/work4.jpg);
+    background-size: cover;
+}
+.content5 {
+    background-image: url(images/work5.jpg);
+    background-size: cover;
+}
+.content6 {
+    background-image: url(images/work6.jpg);
+    background-size: cover;
 }
