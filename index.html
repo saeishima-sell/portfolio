@@ -12,16 +12,16 @@
 </head>
 <body>
     <header class="header">
-        <div class="navbar">
+        <div class="header-box">
             <div class="logo">
                 <p>SAE</p>
             </div>
             <nav>
                 <ul class="nav-list">
-                    <li class="nav-items"><a href="#home">HOME</a></li>
-                    <li class="nav-items"><a href="#about">ABOUT</a></li>
-                    <li class="nav-items"><a href="#works">WORKS</a></li>
-                    <li class="nav-items"><a href="#contact">CONTACT</a></li>
+                    <li class="nav-items"><a href="#home"><svg xmlns="http://www.w3.org/2000/svg" class="svg-jumpmark" viewBox="0 0 18.1 15.81" aria-hidden="true"><path fill="currentColor" d="M17.1 0H6.05c-.55 0-1 .45-1 1v11.38L1.71 9.04A.996.996 0 1 0 .3 10.45l5.07 5.06c.2.2.45.29.71.29s.51-.1.71-.29l5.1-5.1A.996.996 0 1 0 10.48 9l-3.41 3.41V2h10.05c.55 0 1-.45 1-1s-.45-1-1-1Z"></path></svg><span>HOME</span></a></li>
+                    <li class="nav-items"><a href="#about"><svg xmlns="http://www.w3.org/2000/svg" class="svg-jumpmark" viewBox="0 0 18.1 15.81" aria-hidden="true"><path fill="currentColor" d="M17.1 0H6.05c-.55 0-1 .45-1 1v11.38L1.71 9.04A.996.996 0 1 0 .3 10.45l5.07 5.06c.2.2.45.29.71.29s.51-.1.71-.29l5.1-5.1A.996.996 0 1 0 10.48 9l-3.41 3.41V2h10.05c.55 0 1-.45 1-1s-.45-1-1-1Z"></path></svg><span>ABOUT</span></a></li>
+                    <li class="nav-items"><a href="#works"><svg xmlns="http://www.w3.org/2000/svg" class="svg-jumpmark" viewBox="0 0 18.1 15.81" aria-hidden="true"><path fill="currentColor" d="M17.1 0H6.05c-.55 0-1 .45-1 1v11.38L1.71 9.04A.996.996 0 1 0 .3 10.45l5.07 5.06c.2.2.45.29.71.29s.51-.1.71-.29l5.1-5.1A.996.996 0 1 0 10.48 9l-3.41 3.41V2h10.05c.55 0 1-.45 1-1s-.45-1-1-1Z"></path></svg><span>WORKS</span></a></li>
+                    <li class="nav-items"><a href="#contact"><svg xmlns="http://www.w3.org/2000/svg" class="svg-jumpmark" viewBox="0 0 18.1 15.81" aria-hidden="true"><path fill="currentColor" d="M17.1 0H6.05c-.55 0-1 .45-1 1v11.38L1.71 9.04A.996.996 0 1 0 .3 10.45l5.07 5.06c.2.2.45.29.71.29s.51-.1.71-.29l5.1-5.1A.996.996 0 1 0 10.48 9l-3.41 3.41V2h10.05c.55 0 1-.45 1-1s-.45-1-1-1Z"></path></svg><span>CONTACT</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -29,9 +29,7 @@
 
     <main>
         <section id="hero">
-            <div class="hero-text">
-                <h1 class="site-title">Hi there, I'm Sae <br> Frontend developer</h1>
-            </div>
+            <h1 class="site-title">Hi there, I'm Sae <br> Frontend developer</h1>
             <div class="hero-images">
                 <img src="images/title-images-circle.png" alt="" class="hero-images-circle">
                 <img src="images/title-image.png" alt="" class="hero-image hero-image1">
@@ -80,28 +78,32 @@
 
         <section id="skills">
             <h2 class="section-title">SKILLS</h2>
-            <span>Core >>></span>
-            <span>HTML CSS Javascript >>></span>
-            <span>Libraries & Frameworks >>></span>
-            <span>Tools >>></span>
-            <span>Git Figma GitLab</span>
+            <div class="skills-text">
+                <span>Core >>></span>
+                <span>HTML CSS Javascript</span>
+                <span>Libraries & Frameworks >>></span>
+                <span>React SCSS Nodejs</span>
+                <span>Tools >>></span>
+                <span>Git Figma GitLab</span>
+            </div>
         </section>
 
         <section id="contact">
-            <p>Sure, Let's talk</p>
+            <h2 class="section-title">CONTACT</h2>
+            <p class="contact-text">Sure, Let's talk!</p>
             <div class="contact-form">
                 <form action="action_page.php">
 
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your name...">
+                    <input type="text" name="name" id="name" placeholder="Your name..." class="form-input">
 
                     <label for="adress">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Your e-mail adress..">
+                    <input type="email" name="email" id="email" placeholder="Your e-mail adress.." class="form-input">
 
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="leave me any message.."></textarea>
 
-                    <input type="button" value="SEND" class="btn">
+                    <input type="submit" value="SEND" class="btn">
                 </form>
             </div>
         </section>
