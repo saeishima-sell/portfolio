@@ -112,7 +112,9 @@ section, footer {
     transition: transform .7s;
 }
 
-.hero-image {
+
+/* image hover animation */
+.default-image {
     width: 256px;
     height: 287px;
     padding: 10px;
@@ -120,21 +122,28 @@ section, footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: block;
 }
 
-/* look up later */
-.hero-image2 {
-    visibility: hidden;
+.hover-image {
+    width: 340px;
+    height: 340px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
 }
 
-.hero-image1:hover {
-    visibility: hidden;
+.hero-images:hover .default-image {
+    display: none;
 }
 
-
-.hero-image2:hover {
-   visibility: visible;
+.hero-images:hover .hover-image {
+    display: block;
 }
+
 
 
 
@@ -206,11 +215,9 @@ section, footer {
     width: 345px;
     height: 327px;
     border-radius: 20px;
-    /* background-color: #403227; */
     margin: 30px 15px 0 0;
     box-shadow: 13px 10px 10px rgba(0, 0, 0, 0.4
     ) ;
-
     transition: filter 0.3s ease;
 }
 
