@@ -210,7 +210,34 @@ section, footer {
     margin: 30px 15px 0 0;
     box-shadow: 13px 10px 10px rgba(0, 0, 0, 0.4
     ) ;
+
+    transition: filter 0.3s ease;
 }
+
+/* works section hover animation */
+
+.work-contents .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #136027;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-contents:hover {
+    filter: blur(2px) opacity(50%);
+
+}
+
+.work-contents:hover .hover-text {
+    opacity: 1;
+}
+
 
 .content1 {
     background-image: url(images/work1.jpg);
@@ -265,6 +292,8 @@ section, footer {
     padding: 20px;
     margin-left: 0;
 }
+
+
 
 
 /* contact section */
