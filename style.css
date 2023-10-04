@@ -45,7 +45,7 @@ section {
     */
 }
 
-.header-box {
+.header__inner {
     max-width: 80%;
     height: 90px;
     display: flex;
@@ -54,89 +54,82 @@ section {
     
 }
 
-.logo {
+.header__logo {
     color: #f1f1e9;
     font-size: 32px;
 }
 
-
-
-.nav-list {
+.breadcrumb__list {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
 }
 
-
-
-
-.nav-items {
+.breadcrumb__item {
     font-size: 20px;
     transition: all 0.5s;
 }
 
 
-
-
-.nav-items a:link, .nav-items a:visited {
+.breadcrumb__link:link, .breadcrumb__link:visited {
     text-decoration: none;
     color: #f1f1e9;
     cursor: pointer;
 }
 
 
-.nav-items:hover {
+.breadcrumb__item:hover {
     transform: translateY(10px);
 }
 
-.nav-items svg {
+.breadcrumb__svg {
     width: 1rem;
     margin-right: 5px;
 }
 
 @media only screen and (max-width: 800px) {
-    .nav-items  {
+    .nav__item  {
         font-size: 12px;
     }
-    .nav-items svg {
+    .nav__svg {
         width: 7px;
         height: 7px;
     }
 
-    .logo {
+    .header__logo {
         font-size: 16px;
     }
   }
 
 /* hero section */
 
-#hero {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.site-title {
+.hero__heading {
     font-size: 60px;
     margin-right: 0;
 }
 
-.hero-images {
+.hero__image-wrapper {
     width: 400px;
     height: 400px;
     position: relative;
     transition: all 0.3s ease;
 }
 
-.hero-images-circle {
+.hero__image-circle {
     width: 100%;
     height: 100%;
 }
 
 
 @media only screen and (max-width: 800px) {
-    .site-title  {
+    .hero__heading  {
         font-size: 34px;
         margin: 0 auto;
     }
@@ -145,7 +138,7 @@ section {
         flex-direction: column;
         }
 
-    .hero-images {
+    .hero__image-wrapper {
             width: 300px;
             height: 300px;
             padding: 20px;
@@ -156,7 +149,7 @@ section {
   
 
 /* image hover animation */
-.default-image {
+.hero__image-default {
     width: 60%;
     padding: 10px;
     position: absolute;
@@ -167,7 +160,7 @@ section {
     
 }
 
-.hover-image {
+.hero__image-hover {
     width: 80%;
     padding: 10px;
     position: absolute;
@@ -179,11 +172,11 @@ section {
     
 }
 
-.hero-images:hover .default-image {
+.hero__image-wrapper:hover .hero__image-default {
     opacity: 0;
 }
 
-.hero-images:hover .hover-image {
+.hero__image-wrapper:hover .hero__image-hover {
     opacity: 1;
 }
 
