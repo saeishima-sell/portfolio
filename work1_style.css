@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #f1f1e9;
+    color: #403227;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+main {
+
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1 {
+    text-align: center;
+}
