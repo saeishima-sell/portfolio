@@ -127,6 +127,7 @@ section {
     width: 400px;
     height: 400px;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .hero-images-circle {
@@ -163,28 +164,28 @@ section {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: block;
+    transition: opacity 0.3s ease-in-out;
     
 }
 
 .hover-image {
     width: 80%;
-
     padding: 10px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     
 }
 
 .hero-images:hover .default-image {
-    display: none;
+    opacity: 0;
 }
 
 .hero-images:hover .hover-image {
-    display: block;
+    opacity: 1;
 }
 
 
