@@ -280,6 +280,7 @@ section {
   }
 
 /* works section */
+
 .work-container {
     display: flex;
     flex-wrap: wrap;
@@ -290,16 +291,16 @@ section {
 .work-contents {
     width: 345px;
     height: 327px;
+    position: relative;
     border-radius: 20px;
     margin: 30px 15px 0 0;
     box-shadow: 13px 10px 10px rgba(0, 0, 0, 0.4
     ) ;
-    transition: filter 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-/* works section hover animation */
 
-.work-contents .hover-text {
+.hover-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -310,16 +311,20 @@ section {
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
-    z-index: 100;
+    z-index: 1;
 }
 
+/* works section hover animation */
+
 .work-contents:hover {
-    filter: blur(2px) opacity(50%);
+    opacity: 0.2;
+    transform: scale(1.1);
 }
 
 .work-contents:hover .hover-text {
     opacity: 1;
 }
+
 
 
 .content1 {
@@ -358,6 +363,8 @@ section {
     background-position: center;
 
 }
+
+
 
 
 /* skills section */
