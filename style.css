@@ -378,9 +378,12 @@ section {
 
 
 @media only screen and (max-width: 800px) {
-    
+    .skills-text {
+        max-width: 270px;
+    }
     .skills-text span {
         font-size: 14px;
+        line-height: 1.5;
     }
 
   }
@@ -483,6 +486,15 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    .icon-list{
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
     
     .icon {
         margin: 5px;
