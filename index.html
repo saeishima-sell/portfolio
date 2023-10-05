@@ -47,18 +47,19 @@
         </section>
 
         <section id="about" class="about">
-            <h2 class="section-title">ABOUT</h2>
-            <p class="about-text">
+            <h2 class="section-title about__heading">ABOUT</h2>
+            <p class="about__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam incidunt voluptatum dolores, nam aperiam possimus consequuntur doloremque excepturi adipisci, totam molestiae iure mollitia modi explicabo consequatur laboriosam autem laudantium iste?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam incidunt voluptatum dolores, nam aperiam possimus consequuntur doloremque excepturi adipisci, totam molestiae iure mollitia modi explicabo consequatur laboriosam autem laudantium iste?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <div class="button-box">
+            <div class="button__wrapper">
 
-                <a href="#" class="btn">MY CV
-                    <svg class="btn-icon">
+                <a href="#" class="button">MY CV
+                    <svg class="button__append">
                     <use xlink:href="#icon-download" />
                   </svg> </a>
-                <a href="#" class="btn">LINKEDIN <svg class="btn-icon">
+                <a href="#" class="button">LINKEDIN 
+                    <svg class="button__append">
                     <use xlink:href="#icon-extern" />
                   </svg>
                 </a>
@@ -67,66 +68,65 @@
         </section>
 
         <section id="works" class="works">
-            <h2 class="section-title">WORKS</h2>
-            
-            <ul class="work-grid__container">
-                <li class="work-grid__item">
-                    <a href="./work1_index.html" target="_blank">
-                    <div class="work-contents content1">
-                        <span class="hover-text">VIEW MORE</span>
+            <h2 class="section-title work__heading">WORKS</h2>
+            <ul class="work__container">
+                <li class="work__item">
+                    <a href="./work1_index.html" target="_blank" class="work__link">
+                    <div class="work__item-image content1">
+                        <span class="work__text--hover">VIEW MORE</span>
                     </div>
                     </a>
                 </li>
-                <li class="work-grid__item">
-                    <a href="./work1_index.html" target="_blank">
-                    <div class="work-contents content2">
-                        <span class="hover-text">VIEW MORE</span>
+                <li class="work__item">
+                    <a href="./work1_index.html" target="_blank" class="work__link">
+                    <div class="work__item-image content2">
+                        <span class="work__text--hover">VIEW MORE</span>
                     </div>
                     </a>
                 </li>
-                <li class="work-grid__item">
-                    <a href="./work1_index.html" target="_blank">
-                    <div class="work-contents content3">
-                        <span class="hover-text">VIEW MORE</span>
+                <li class="work__item">
+                    <a href="./work1_index.html" target="_blank" class="work__link">
+                    <div class="work__item-image content3">
+                        <span class="work__text--hover">VIEW MORE</span>
                     </div>
                     </a>
                 </li>
-                <li class="work-grid__item">
-                    <a href="./work1_index.html" target="_blank">
-                    <div class="work-contents content4">
-                        <span class="hover-text">VIEW MORE</span>
+                <li class="work__item">
+                    <a href="./work1_index.html" target="_blank" class="work__link">
+                    <div class="work__item-image content4">
+                        <span class="work__text--hover">VIEW MORE</span>
                     </div>
                     </a>
                 </li>
-                <li class="work-grid__item">
-                    <a href="./work1_index.html" target="_blank">
-                    <div class="work-contents content5">
-                        <span class="hover-text">VIEW MORE</span>
+                <li class="work__item">
+                    <a href="./work1_index.html" target="_blank" class="work__link">
+                    <div class="work__item-image content5">
+                        <span class="work__text--hover">VIEW MORE</span>
                     </div>
                     </a>
                 </li>
-                <li class="work-grid__item">
-                    <a href="./work1_index.html" target="_blank">
-                    <div class="work-contents content6">
-                        <span class="hover-text">VIEW MORE</span>
+                <li class="work__item">
+                    <a href="./work1_index.html" target="_blank" class="work__link">
+                    <div class="work__item-image content6">
+                        <span class="work__text--hover">VIEW MORE</span>
                     </div>
                     </a>
                 </li>
             </ul>
         </section>
 
-        <section id="skills" class="works">
-            <h2 class="section-title">SKILLS</h2>
-            <div class="skills-text">
-                <span>Core &gt; &gt; &gt; &emsp; HTML CSS Javascript</span>
-                <span>Libraries &amp Frameworks &gt; &gt; &gt; React SCSS Nodejs</span>
-                <span class="skills-name">Tools &gt; &gt; &gt; &emsp; Git Figma GitLab</span>
+        <section id="skills" class="skills">
+            <h2 class="section-title skills__heading">SKILLS</h2>
+            <div class="skills__text-wrapper">
+                <span class="skills__text">Core &gt; &gt; &gt; &emsp; HTML CSS Javascript</span>
+                <span class="skills__text">Libraries &amp Frameworks &gt; &gt; &gt; React SCSS Nodejs</span>
+                <span class="skills__text">Tools &gt; &gt; &gt; &emsp; Git Figma GitLab</span>
             </div>
         </section>
 
         <section id="contact" class="contact">
-            <h2 class="section-title">CONTACT</h2>
-            <p class="contact-text">Sure, Let's talk!</p>
+            <h2 class="section-title contact__heading">CONTACT</h2>
+            <p class="contact__lead">Sure, Let's talk!</p>
             <div class="contact-form">
                 <form action="action_page.php">
 
@@ -140,7 +140,7 @@
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="leave me any message.."></textarea>
 
                     <button type="submit" class="btn">SEND
-                        <svg class="btn-icon">
+                        <svg class="button__append">
                             <use xlink:href="#icon-send" />
                           </svg>
                     </button>
@@ -149,7 +149,7 @@
             </div>
      </section> 
 
-        <footer>
+        <footer class="footer">
             <p>copyright 2023</p>
             <ul class="icon-list">
                 <li class="icon-items"><a href="#" target="_blank" rel="noopener noreferrer">
