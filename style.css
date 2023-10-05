@@ -482,11 +482,10 @@ section {
 
 
 .footer-socialmedia__list {
-    display: flex;
-    
-   
-    
+    display: flex;  
 }
+
+
 .footer-socialmedia__item {
     list-style: none;
 }
@@ -517,10 +516,6 @@ section {
     
     .footer-socialmedia__icon {
         margin: 5px;
-    }
-
-    .footer__copyright {
-        font-size: 14px;
     }
 
   }
