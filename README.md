@@ -7,9 +7,9 @@ Welcome to my website. :blush:
 ## Project Overview
 
 This is my first portfolio :hatching_chick:
-I created this Landing page while researching how to use tools like **GitHub GitKraken** .
+I created this Landing page while researching how to use tools like **GitHub, GitKraken**.
 
-
+I have learned a lot by working on this page such as Flexbox and Grid. BEM methodology etc...
 
 ## Teck Stack
 
@@ -20,6 +20,8 @@ I created this Landing page while researching how to use tools like **GitHub Git
 ## Features and Sections
 
 Landing Page featuring sections such as About, Works, Skills, Contact Form.
+
+
 
 ### Color
 | contents | HEX   |
