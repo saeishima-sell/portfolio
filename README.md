@@ -9,7 +9,15 @@ Welcome to my website. :herb:
 This is my first portfolio :hatching_chick:
 I created this Landing page while researching how to use tools like **GitHub, GitKraken**.
 
-I have learned a lot by working on this page such as ==Flexbox, Grid,Responsive design, BEM methodology== etc... 
+I have learned a lot by working on this page such as `Flexbox, Grid,Responsive design, BEM methodology` etc... 
+
+
+<!-- Mark tag didnt do the job in github page -->
+<!-- 
+<Mark>Flexbox, Grid,Responsive design, BEM methodology</Mark> -->
+
+
+
 
 ## Teck Stack
 
