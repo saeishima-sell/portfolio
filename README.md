@@ -1,6 +1,6 @@
-# portfolio
+# portfolio 
 
-Welcome to my website. :blush:
+Welcome to my website. :herb:
 
 
 
@@ -9,7 +9,7 @@ Welcome to my website. :blush:
 This is my first portfolio :hatching_chick:
 I created this Landing page while researching how to use tools like **GitHub, GitKraken**.
 
-I have learned a lot by working on this page such as Flexbox and Grid. BEM methodology etc...
+I have learned a lot by working on this page such as <mark>Flexbox, Grid,Responsive design, BEM methodology</mark> etc... 
 
 ## Teck Stack
 
@@ -31,10 +31,17 @@ Landing Page featuring sections such as About, Works, Skills, Contact Form.
 | button | `#A6A376` |
 | button hover | `#136027` |
 
+![Color Sheets by AdobeColor](./images/AdobeColor-peaceful%20sleep.jpeg )
+
+![|50%](./images/AdobeColor-peaceful%20sleep.jpeg )
+
+
+<img src="./images/AdobeColor-peaceful%20sleep.jpeg" alt="colorsheets" height="300px">
+
 
 ### Font
 
-Fonts got from Google font
+Fonts are from Google font
 
 ```CSS
 
