@@ -31,12 +31,13 @@ Landing Page featuring sections such as About, Works, Skills, Contact Form.
 | button | `#A6A376` |
 | button hover | `#136027` |
 
-![Color Sheets by AdobeColor](./images/AdobeColor-peaceful%20sleep.jpeg )
+<!-- add img syntax without size change -->
+<!-- ![Color Sheets by AdobeColor](./images/AdobeColor-peaceful%20sleep.jpeg ) -->
 
-![|50%](./images/AdobeColor-peaceful%20sleep.jpeg )
+<!-- ![|50%](./images/AdobeColor-peaceful%20sleep.jpeg )
+ -->
 
-
-<img src="./images/AdobeColor-peaceful%20sleep.jpeg" alt="colorsheets" height="300px">
+<img src="./images/AdobeColor-peaceful%20sleep.jpeg" alt="colorsheets" height="400px">
 
 
 ### Font
