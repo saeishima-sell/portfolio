@@ -13,10 +13,8 @@ I have learned a lot by working on this page such as `Flexbox, Grid,Responsive d
 
 
 <!-- Mark tag didnt do the job in github page -->
-<!-- 
-<Mark>Flexbox, Grid,Responsive design, BEM methodology</Mark> -->
 
-
+<!-- <Mark>Flexbox, Grid,Responsive design, BEM methodology</Mark> -->
 
 
 ## Teck Stack

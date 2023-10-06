@@ -332,6 +332,7 @@ section {
 .work__item-image:hover {
     opacity: 0.2;
     transform: scale(1.1);
+    box-shadow: none;
 }
 
 .work__item-image:hover .work__text--hover {
