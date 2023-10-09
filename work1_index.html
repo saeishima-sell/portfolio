@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work1</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="work1_style.css">
     <link
       rel="stylesheet"
@@ -14,10 +15,10 @@
     />
 </head>
 <body>
-    <header class="workpage__header">
-      <div class="workpage-header__inner">
-        <div class="workpage-header__logo">
-            <a class="workpage-header__logo-link" href="./index.html">SAE</a>
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__logo">
+            <a class="header__logo-link" href="./index.html">SAE</a>
         </div>
         <nav class="header__nav">
             <ul class="jumpmarks__list">
@@ -70,13 +71,13 @@
 
         <section class="workpage__links" id="workpage__links">
                 <h2 class="links__title section-title">Links</h2>
-                
-                <a class="links__link" href="#">Name of Project</a>
+                <a class="links__link" href="#">Name of Project<svg class="link__append">
+                <use xlink:href="#icon-extern" /></svg></a>
         </section>
         
     </main>
 
-    <footer class="workpage__footer">
+    <footer class="footer">
       <p class="footer__copyright"><small>copyright 2023</small></p>
       <ul class="footer-socialmedia__list">
           <li class="footer-socialmedia__item"><a  href="https://github.com/saeishima-sell" target="_blank" rel="noopener noreferrer" class="footer-socialmedia__link link__github">
