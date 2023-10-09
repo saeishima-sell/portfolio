@@ -12,7 +12,7 @@ body {
     
 }
 
-section {
+section, footer {
     max-width: 80%;
     margin-top: 60px;
 }
@@ -63,16 +63,44 @@ section {
 
 }
 
+
+/* links */
+
+.links__link, links__link:visited {
+    text-decoration: none;
+    color: #403227;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.links__link:hover {
+    color: #A6A376;
+}
+
+
 /* footer */
 
 .workpage__footer {
     text-align: end;
-    max-width: 80%;
+    padding-bottom: 20px;
 }
+
+.footer__link, footer__link:visited {
+    text-decoration: none;
+    color: #403227;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer__link:hover {
+    color: #A6A376;
+}
+
 .footer__link-icon {
     width: 1rem;
     margin-right: 5px;
     fill: #403227;
+    transition: all 0.3s;
 }
 
 .footer__link-icon:hover {
