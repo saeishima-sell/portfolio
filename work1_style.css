@@ -14,19 +14,27 @@ section, footer, .workpage__heading {
     font-family: 'Outfit', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .workpage__heading {
+        font-size: 34px;
+    }
+  }
+
 
 /* gallery */
 
 .gallery__wrapper {
     max-width: 1200px;
- 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
 }
 
 .gallery__img {
     width: 525px;
     height: 363px;
     object-fit: cover;
-    padding: 10px;
     filter: grayscale(100%);
     transition: 0.7s;
 
@@ -37,22 +45,37 @@ section, footer, .workpage__heading {
     transform: scale(1.1);
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1090px) {
 
     .gallery__wrapper {
-        max-width: 390px;
+        grid-template-columns: repeat(1,1fr);
     }
+  }
 
+@media only screen and (max-width: 600px) {
     
+    .gallery__img {
+        width: 288px;
+        height: 202px;
+    }
+       
+  }
 
-  } */
 
 /* description */
 
 .description__text {
-    max-width: 80%;
+    max-width: 1200px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    max-width: 1200px;
+}
 
+@media only screen and (max-width: 600px) {
+    .description__text {
+        font-size: 14px;
+    }
 }
 
 
