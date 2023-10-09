@@ -21,6 +21,7 @@ I have learned a lot by working on this page such as `Flexbox, Grid,Responsive d
 
 - HTML
 - CSS
+- [Javascript library Lightbox2 by Lokesh Dhakar](https://lokeshdhakar.com/projects/lightbox2/)
 
 
 ## Features and Sections
