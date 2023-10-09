@@ -54,9 +54,11 @@ section {
     
 }
 
-.header__logo {
+
+.header__logo-link {
     color: #f1f1e9;
     font-size: 32px;
+    text-decoration: none;
 }
 
 /* jumpmarks */
