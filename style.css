@@ -149,6 +149,25 @@ section {
 }
 
 
+
+@media only screen and (max-width: 960px) {
+    .hero__heading  {
+        font-size: 42px;
+        margin: 0 auto;
+    }
+    
+    #hero {
+        flex-direction: column;
+        }
+
+    .hero__image-wrapper {
+            width: 360px;
+            height: 360px;
+            padding: 20px;
+         }
+
+  }
+
 @media only screen and (max-width: 800px) {
     .hero__heading  {
         font-size: 34px;
