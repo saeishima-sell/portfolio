@@ -74,10 +74,10 @@ Im Navigationmenü habe ich die [scroll behaviour property](https://developer.mo
 
 Für die Darstellung der Bilder im Stil einer Galerie auf der Work-pag habe ich die [Javascript library Lightbox2 by Lokesh Dhakar](https://lokeshdhakar.com/projects/lightbox2/) verwendet.
 
-Während des Entwicklungsprozesses habe ich mich zum ersten Mal intensiv mit git beschäftigt und gelern, wie man GitKraken und GitHub verwendet. Weiterhin habe ich mich mit BEM in CSS und der Usability (Benutyerfreundlichkeit)auseinandergesetzt.
+Während des Entwicklungsprozesses habe ich mich zum ersten Mal intensiv mit git beschäftigt und gelern, wie man GitKraken und GitHub verwendet. Weiterhin habe ich mich mit BEM in CSS und der Usability (Benutzerfreundlichkeit) auseinandergesetzt.
 
 Besonders im Hinblick auf die Usability habe ich darauf geachtet, den Nutzern durch Anzeigen von Zeichen für Downloads oder den Zugriff aud andere Seiten mitzuteilen, was passiert wenn sie auf einen Link oder Button klicken.
 
-Mit BEM Methodology bin ich manchmal noch unsicher das ist ein Thema. an dem ich weiter arbeiten möchte.
+Mit BEM Methodology bin ich manchmal noch unsicher das ist ein Thema an dem ich weiter arbeiten möchte.
 
 11.10.2023
