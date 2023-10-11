@@ -363,10 +363,8 @@ section {
     transition: opacity 0.3s ease;
 }
 
-
-
 .work__item-image:hover {
-    opacity: 0.2;
+    opacity: 0.1;
     transform: scale(1.1);
     box-shadow: none;
 }
@@ -378,37 +376,37 @@ section {
 
 
 .content1 {
-    background-image: url(images/work1.jpg);
+    background-image: url(../images/guess_img/guess_img1.png);
     background-size: cover;
     background-position: center;
 
 }
 .content2 {
-    background-image: url(images/work2.jpg);
+    background-image: url(../images/natours_img/natours1.png);
     background-size: cover;
     background-position: center;
 
 }
 .content3 {
-    background-image: url(images/work3.jpg);
+    background-image: url(../images/piggame_img/pig_img1.png);
     background-size: cover;
     background-position: center;
 
 }
 .content4 {
-    background-image: url(images/work4.jpg);
+    background-image: url(../images/Tourismus_img/tourtism_img6.png);
     background-size: cover;
     background-position: center;
 
 }
 .content5 {
-    background-image: url(images/work5.jpg);
+    background-image: url(../images/glasscard_img/glass_img5.png);
     background-size: cover;
     background-position: center;
 
 }
 .content6 {
-    background-image: url(images/work6.jpg);
+    background-image: url(../images/tindog_img/tindog_img7.png);
     background-size: cover;
     background-position: center;
 
