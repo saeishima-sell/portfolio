@@ -105,7 +105,7 @@ section {
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
 
     .header__logo {
         font-size: 16px;
@@ -168,7 +168,7 @@ section {
 
   }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .hero__heading  {
         font-size: 34px;
         margin: 0 auto;
@@ -277,7 +277,7 @@ section {
     fill: #f1f1e9;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     
     .about__text{
         font-size: 14px;
@@ -432,7 +432,7 @@ section {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .skills__text {
         font-size: 18px;
         line-height: 1.5;
@@ -496,7 +496,7 @@ section {
         margin-top: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
 
     .contact__lead{
         font-size: 14px;
@@ -541,7 +541,7 @@ section {
     transform: scale(2);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
 
     .footer{
         flex-direction: column-reverse;
