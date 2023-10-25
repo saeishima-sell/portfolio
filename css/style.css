@@ -319,6 +319,7 @@ section {
 
 .work__item {
     list-style: none;
+    position: relative;
 
 }
 
@@ -349,6 +350,17 @@ section {
     transition: all 0.3s ease;
 }
 
+.work__item-image::before {
+    content: "";
+    width: 345px;
+    height: 327px;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #ffff;
+    opacity: 0;
+    z-index: 10;
+}
+
 /* works section hover animation */
 .work__text--hover {
     position: absolute;
@@ -359,18 +371,24 @@ section {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    
     opacity: 0;
     transition: opacity 0.3s ease;
+    z-index: 100;
 }
 
 .work__item-image:hover {
-    opacity: 0.1;
     transform: scale(1.1);
     box-shadow: none;
 }
 
+
 .work__item-image:hover .work__text--hover {
     opacity: 1;
+}
+
+.work__item-image:hover::before {
+    opacity: 0.6;
 }
 
 
